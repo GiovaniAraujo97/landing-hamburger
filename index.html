@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="Pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <title>Gulas Lanches</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navigation">
+            <a href="a" class="logo">G<span>ula</span>S L<span>anche</span>S</a>
+            <ul class="nav-menu">
+                <li class="nav-item"> <a href="#">Inicio</a></li>
+                <li class="nav-item"> <a href="#sobre">Sobre</a></li>
+                <li class="nav-item"> <a href="#">Serviços</a></li>
+                <li class="nav-item"> <a href="#">Menu</a></li>
+                <li class="nav-item"> <a href="#">Contatos</a></li>
+
+                <i class='bx bx-search'></i>
+            </ul>
+            <div class="menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="home">
+            <div class="home-text">
+                <h4 class="text-h4">Bem-Vindo ao Gulas Lanches</h4>
+                <h1 class="text-h1">Se o rolê não terminar em lanche, eu nem saio de casa.</h1>
+                <p>Cuidando de você em cada gergelim.</p>
+                <a class="home-btn" href="#">Peça Agora !</a>
+            </div>
+            <div class="home-img">
+                <img src="img-hamburger.png" alt="lanche">
+            </div>
+        </section>
+
+        <section class="sobre" id="sobre">
+            <div class="sobre-img">
+                <img src="lanche-sn.png" alt="lanche">
+            </div>
+            <div class="container">
+                <div class="call">
+                    <div class="sobre-text">
+                        <span class="text-h2">Sobre Nós</span>
+                        <h2 class="text-h1">Montamos o lanche mais saboroso!</h2>
+                        <p>Você está preparado para experimentar o lanche mais saboroso ?</p>
+                        <a class="sobre-btn" href="#">Saiba Mais</a>
+                    </div>
+                </div>
+            </div>
+            <button id="back-to-top">^</button>
+        </section>
+
+    </main>
+    <script src="script.js"></script>
+
+    <script>
+        var btn = document.querySelector("#back-to-top");
+            btn.addEventListener("click", function(){
+            window.scrollTo(0,0);
+});
+    </script>
+</body>
+
+</html>
